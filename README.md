@@ -1,47 +1,61 @@
-# Object Detection Demo 🚀
+# Object Detection with YOLOv5 🚀
 
-This repository contains a simple **Object Detection demo** using [YOLOv5](https://github.com/ultralytics/yolov5), designed for quick setup and easy experimentation on **Google Colab**.  
-
-It’s built as a **beginner-friendly project** to demonstrate real-time object detection on images.
-
----
-
-## 📂 Repository Structure
-
-
+This project demonstrates a **simple Object Detection pipeline** using **YOLOv5** on the **COCO128 dataset**.  
+It is designed to show dataset handling, preprocessing, model training, and evaluation on **Google Colab**.  
 
 ---
 
-## ⚡ Features
-- Runs entirely on **Google Colab** (no local setup needed).  
-- Uses **pre-trained YOLOv5 models**.  
-- Detects multiple objects in images.  
-- Beginner-friendly, minimal code.  
+## 📂 Dataset
+- **Dataset Used**: [COCO128](https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip) (a smaller subset of the COCO dataset with 128 training images).  
+- Contains labeled images of everyday objects like people, cars, dogs, bottles, etc.  
+- Used here for quick training and testing within limited time and compute.  
 
 ---
 
-## 🛠️ Setup & Usage
-
-### 1. Open in Colab  
-Click below to run this notebook in Google Colab:  
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/ObjectDetectionDemo.ipynb)
-
----
-
-### 2. Run the Notebook  
-- Mount Google Drive (optional, if saving files).  
-- Run each cell step by step.  
-- Upload your own images or test with sample ones.  
+## ⚙️ Preprocessing
+1. Downloaded the dataset directly in Colab.  
+2. Extracted and organized into `train` and `val` directories.  
+3. Images were resized and normalized automatically by YOLOv5’s dataloader.  
+4. Labels were parsed into YOLO format (`.txt` files containing class + bounding box coordinates).  
 
 ---
 
-## 📊 Example Output
-Here’s an example detection output from YOLOv5:
+## 🔄 Workflow
+1. **Dataset Loading** – Downloaded and extracted COCO128 dataset.  
+2. **Preprocessing** – Handled by YOLOv5: image resizing, normalization, label parsing.  
+3. **Model Setup** – Used a pre-trained YOLOv5s model (small, lightweight).  
+4. **Training** – Fine-tuned on COCO128 dataset for a few epochs.  
+5. **Inference** – Ran detection on sample images and user-uploaded images.  
+6. **Visualization** – Output bounding boxes drawn on detected objects with confidence scores.  
+
+---
+
+## 📊 Results
+- The model was able to correctly identify and classify objects in images.  
+- Example: People, cars, dogs, and bottles were detected with bounding boxes.  
+- Training on COCO128 achieved quick results with decent accuracy for a demo.  
+
+Example output (sample detection):  
 
 <p align="center">
   <img src="https://github.com/ultralytics/yolov5/raw/master/data/images/zidane.jpg" width="400">
 </p>
 
 ---
+
+## 📌 Key Takeaways
+- Pre-trained models like YOLOv5 can be quickly fine-tuned on small datasets.  
+- Even with minimal training, object detection works well for demo purposes.  
+- Colab provides a GPU environment suitable for running such models without local setup.  
+
+---
+
+## 🛠️ Tech Stack
+- **Python**  
+- **PyTorch**  
+- **YOLOv5**  
+- **Google Colab**  
+
+---
+
 
