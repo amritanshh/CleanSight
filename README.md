@@ -50,6 +50,19 @@ Example output (sample detection):
 
 ---
 
+## 🌍 CleanSight Frontend (Extra Files in Repository)
+
+Along with the object detection pipeline, this repository also contains extra files for a prototype **CleanSight application frontend**.
+
+- **Purpose**: Demonstrates how object detection can be integrated into a real-world solution.  
+- **Functionality**: 
+  - Detects litter (wrappers, bottles, cans) from CCTV or edge devices using YOLO.  
+  - Sends **geo-tagged alerts** to notify about detected litter.  
+  - Provides a simple **frontend interface** (included in the repo) where detection results could be displayed.  
+
+The frontend is not the main focus of this task but shows how the detection model could be extended into a working application.
+
+
 ## 📌 Key Takeaways
 - Pre-trained models like YOLOv5 can be quickly fine-tuned on small datasets.  
 - Even with minimal training, object detection works well for demo purposes.  
