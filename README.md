@@ -38,10 +38,15 @@ It is designed to show dataset handling, preprocessing, model training, and eval
 Example output (sample detection):  
 
 <p align="center">
-  <img src="https://github.com/ultralytics/yolov5/raw/master/data/images/zidane_pred.jpg" width="400">
+  <img src="https://raw.githubusercontent.com/ultralytics/yolov5/master/data/images/zidane.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ultralytics/yolov5/master/data/images/zidane_pred.jpg" width="400">
 </p>
 
 *(Above: YOLOv5 detects "person" and "sports ball" with bounding boxes + labels + confidence scores.)*
+
 
 ---
 
