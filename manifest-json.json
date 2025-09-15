@@ -1,0 +1,59 @@
+{
+  "short_name": "CleanSight",
+  "name": "CleanSight - AI Litter Detection",
+  "description": "AI-Powered Litter Detection for Tourist Spots",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#16a34a",
+  "background_color": "#f0fdf4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["environmental", "utilities", "photo"],
+  "screenshots": [
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Upload Image",
+      "short_name": "Upload",
+      "description": "Quick upload for litter detection",
+      "url": "/?action=upload",
+      "icons": [{ "src": "upload-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View History",
+      "short_name": "History",
+      "description": "View detection history",
+      "url": "/?tab=history",
+      "icons": [{ "src": "history-icon.png", "sizes": "192x192" }]
+    }
+  ]
+}
