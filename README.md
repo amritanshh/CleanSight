@@ -49,9 +49,9 @@ Example output (sample detection):
 
 # Object Detection with YOLOv5 🚀
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID_HERE)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AzVggbcobyOBEyg8zTk-FKMfZ8t9dF_D?usp=sharing)
 
-This repository demonstrates a **Computer Vision project** that combines **Object Detection** with a conceptual **CleanSight frontend** for AI-powered litter detection.
+This repository demonstrates a **Computer Vision project** that combines **Object Detection** with a conceptual CleanSight frontend for AI-powered litter detection.
 
 
 
