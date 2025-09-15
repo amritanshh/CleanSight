@@ -45,15 +45,3 @@ Here’s an example detection output from YOLOv5:
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.  
-
----
-
-## 📜 License
-This project uses the **MIT License**.  
-You’re free to use, modify, and share this code.  
-
----
-
-👨‍💻 Made with ❤️ using Google Colab + YOLOv5  
