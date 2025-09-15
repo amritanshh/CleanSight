@@ -32,14 +32,16 @@ It is designed to show dataset handling, preprocessing, model training, and eval
 
 ## 📊 Results
 - The model was able to correctly identify and classify objects in images.  
-- Example: People, cars, dogs, and bottles were detected with bounding boxes.  
+- Example: People, cars, dogs, and bottles were detected with **bounding boxes and confidence scores**.  
 - Training on COCO128 achieved quick results with decent accuracy for a demo.  
 
 Example output (sample detection):  
 
 <p align="center">
-  <img src="https://github.com/ultralytics/yolov5/raw/master/data/images/zidane.jpg" width="400">
+  <img src="https://github.com/ultralytics/yolov5/raw/master/data/images/zidane_pred.jpg" width="400">
 </p>
+
+*(Above: YOLOv5 detects "person" and "sports ball" with bounding boxes + labels + confidence scores.)*
 
 ---
 
