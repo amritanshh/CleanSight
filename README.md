@@ -47,6 +47,13 @@ Example output (sample detection):
 
 *(Above: YOLOv5 detects "person" and "sports ball" with bounding boxes + labels + confidence scores.)*
 
+# Object Detection with YOLOv5 🚀
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID_HERE)
+
+This repository demonstrates a **Computer Vision project** that combines **Object Detection** with a conceptual **CleanSight frontend** for AI-powered litter detection.
+
+
 
 ---
 
